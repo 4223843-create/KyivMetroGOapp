@@ -21,7 +21,7 @@ plugins {
 }
 
 def twaManifest = [
-    applicationId: 'com.github.kyivmetrogo',
+    applicationId: 'app.netlify.vermillion_eclair_b71162.twa',
     hostName: 'vermillion-eclair-b71162.netlify.app', // The domain being opened in the TWA.
     launchUrl: '/', // The start path for the TWA. Must be relative to the domain.
     name: 'KyivMetroGO', // The application name.
@@ -52,9 +52,9 @@ def twaManifest = [
 
 android {
     compileSdkVersion 36
-    namespace "com.github.kyivmetrogo"
+    namespace "app.netlify.vermillion_eclair_b71162.twa"
     defaultConfig {
-        applicationId "com.github.kyivmetrogo"
+        applicationId "app.netlify.vermillion_eclair_b71162.twa"
         minSdkVersion 21
         targetSdkVersion 35
         versionCode 1
@@ -76,12 +76,12 @@ android {
             // The URL the Web Manifest for the Progressive Web App that the TWA points to. This
             // is used by Chrome OS and Meta Quest to open the Web version of the PWA instead of
             // the TWA, as it will probably give a better user experience for non-mobile devices.
-            resValue "string", "webManifestUrl", 'https://raw.githubusercontent.com/4223843-create/KyivMetroGO/refs/heads/main/manifest.json'
+            resValue "string", "webManifestUrl", 'https://vermillion-eclair-b71162.netlify.app/manifest.json'
         
 
         
             // This is used by Meta Quest.
-            resValue "string", "fullScopeUrl", 'https://raw.githubusercontent.com/4223843-create/KyivMetroGO/refs/heads/main/'
+            resValue "string", "fullScopeUrl", 'https://vermillion-eclair-b71162.netlify.app/'
         
 
         

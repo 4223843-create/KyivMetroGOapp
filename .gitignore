@@ -1,0 +1,26 @@
+# Gradle-specific files
+.gradle/
+build/
+local.properties
+.DS_Store
+
+# Android-specific files
+*.apk
+*.aab
+*.iml
+.idea/
+/app/build/
+/app/src/main/assets/
+/app/src/main/res/raw/web_app_manifest.json
+
+# Bubblewrap specific files
+/app-release-bundle.aab
+/app-release-signed.apk
+/app-release-signed.apk.idsig
+/app-release-unsigned-aligned.apk
+/manifest-checksum.txt
+/twa-manifest.json
+
+# You can add more files here
+# For example, if you have a key, put it here
+# android.keystore
