@@ -28,7 +28,7 @@
         \"relation\": [\"delegate_permission/common.handle_all_urls\"],
         \"target\": {
             \"namespace\": \"web\",
-            \"site\": \"https://vermillion-eclair-b71162.netlify.app\"
+            \"site\": \"https://kyiv-metro-go-app.vercel.app\"
         }
     }]
     

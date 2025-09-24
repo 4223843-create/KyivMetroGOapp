@@ -20,7 +20,7 @@
      application, the package attribute will need to reflect the correct path in order to use
      the abbreviated format. -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="app.netlify.vermillion_eclair_b71162.twa">
+    package="app.vercel.kyiv_metro_go_app.twa">
 
     
         <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
